@@ -1,0 +1,171 @@
+:root {
+    --nav-color: #f2f2f2;
+}
+
+/* Start Nav */
+.navbar {
+    background-color: var(--nav-color);
+}
+
+.navbar .navbar-nav {
+    font-size: 12px;
+}
+
+.navbar form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    outline: none;
+}
+
+.navbar form input::placeholder {
+    font-size: 12px;
+}
+
+.navbar form input:focus {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    outline: none;
+}
+
+.navbar form input:hover {
+    border-bottom: 2px solid #aaa;
+}
+
+.navbar form .btn {
+    color: #aaa;
+}
+
+.navbar form .btn:focus {
+    border: none;
+    outline: none;
+    color: #aaa;
+}
+
+/* End Nav */
+
+/* Start Landing */
+
+.landing .text {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -170%);
+    font-size: 30px;
+    width: fit-content;
+}
+
+.landing .text h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.landing .text p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.landing .text .par-2 {
+    font-size: 10px;
+}
+
+@media (max-width: 771px) {
+    .landing .text {
+        transform: translate(-50%, -120%);
+    }
+}
+
+@media (max-width: 600px) {
+    .landing .text {
+        transform: translate(-50%, -110%);
+    }
+
+    .landing .text h2 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 412px) {
+    .landing .text p {
+        font-size: 10px;
+    }
+
+    .landing .text h2 {
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 373px) {
+    .landing .text {
+        transform: translate(-50%, -80px);
+    }
+}
+
+@media (max-width: 249px) {
+    .landing .text {
+        transform: translate(-50%, -80px);
+    }
+}
+
+/* End Landing */
+/* Start Explore */
+.explore p {
+    font-size: 13px;
+}
+
+.explore img {
+    position: relative;
+}
+
+.explore .btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0;
+    font-size: 18px;
+    padding: 5px 50px;
+    background-color: white;
+    color: rgb(37 115 218);
+    transition: 0.3s;
+}
+
+.explore .btn:hover {
+    background-color: rgb(37 115 218);
+    color: white;
+}
+
+/* End Explore */
+
+/* Start Ads */
+.ads {
+    background-color: var(--nav-color);
+}
+
+.ads .featured-section {
+    padding: 2rem 0;
+}
+
+.ads .featured-title {
+    font-weight: 600;
+    color: #000;
+    margin-right: 0.5rem;
+}
+
+.ads .divider {
+    color: #999;
+    margin: 0 1rem;
+}
+
+.ads .logo-img {
+    max-height: 30px;
+    margin-left: 20px;
+    width: 100px;
+    object-fit: contain;
+}
+
+
+
+/* End Ads */
